@@ -16,13 +16,15 @@ class Solution:
         if None == root:
             return
         node = root
+        next = root.left
         while None != node.left:
             node.left.next = node.right
             if None != node.next:
                 node.right.next = node.next.left
                 node = node.next
             else:
-                node = node.left
+                node = next
+                next = next.left
 
 
         

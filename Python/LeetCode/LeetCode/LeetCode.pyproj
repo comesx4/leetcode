@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3267f86a-89f3-4aad-9d86-a6a16120fb00</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hasCycle.py</StartupFile>
+    <StartupFile>searchInsert.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="connect.py" />
+    <Compile Include="searchInsert.py" />
+    <Compile Include="inorderTraversal.py" />
+    <Compile Include="preorderTraversal.py" />
     <Compile Include="hasCycle.py" />
     <Compile Include="reverse.py" />
     <Compile Include="numTrees.py" />
