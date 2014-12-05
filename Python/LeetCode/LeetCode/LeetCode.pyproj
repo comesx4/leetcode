@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3267f86a-89f3-4aad-9d86-a6a16120fb00</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>searchInsert.py</StartupFile>
+    <StartupFile>climbStairs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="connect.py" />
+    <Compile Include="climbStairs.py" />
     <Compile Include="searchInsert.py" />
     <Compile Include="inorderTraversal.py" />
     <Compile Include="preorderTraversal.py" />
@@ -35,6 +36,7 @@
     <Compile Include="maxDepth.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="maxSubArray.py" />
     <Compile Include="singleNumber.py" />
   </ItemGroup>
   <PropertyGroup>
