@@ -25,7 +25,8 @@
   <ItemGroup>
     <Compile Include="connect.py" />
     <Compile Include="climbStairs.py" />
-    <Compile Include="removeElement - Copy.py" />
+    <Compile Include="deleteDuplicates.py" />
+    <Compile Include="removeElement.py" />
     <Compile Include="swapPairs.py" />
     <Compile Include="searchInsert.py" />
     <Compile Include="inorderTraversal.py" />
@@ -39,10 +40,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="maxSubArray.py" />
-    <Compile Include="sortedArrayToBST - Copy.py" />
+    <Compile Include="sortedArrayToBST.py" />
     <Compile Include="mergeTwoLists.py" />
     <Compile Include="singleNumber2.py" />
     <Compile Include="singleNumber.py" />
+    <Compile Include="sortColors.py" />
+    <Compile Include="totalNQueens.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
